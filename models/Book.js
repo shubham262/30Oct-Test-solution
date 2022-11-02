@@ -14,11 +14,11 @@ module.exports=(sequelize,DataTypes)=>{
         },
         publishedOn:{
             type:DataTypes.DATE,
-            defaultValue:Date.now()
+            defaultValue:now()
         },
         addedOn:{
             type:DataTypes.DATE,
-            defaultValue:Date.now()
+            defaultValue:now()
         },
         rentedBy:{
             type:DataTypes.INTEGER,
